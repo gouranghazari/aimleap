@@ -1,6 +1,8 @@
+import React from "react";
+import card from "../../public/contact_card.png";
 import Nav from "@/components/Nav";
 
-export default function Home() {
+function page() {
   return (
     <>
       <Nav></Nav>
@@ -1045,3 +1047,5 @@ export default function Home() {
     </>
   );
 }
+
+export default page;
